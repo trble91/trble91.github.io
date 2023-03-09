@@ -1,19 +1,102 @@
-
-div {
+.container {
     display: flex;
-    flex-direction: row-reverse;
-    padding: 20px;
-
+    justify-content: center;
+    margin: 20px;
+    padding: 0 50px 0 50px;
 }
 
-body {
+ul {
+    list-style: none;
     display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Gloria Hallelujah', cursive;
+    gap: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.links1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 150px;
+    gap: 10px;
+}
+
+.pic1 {
+    background-image: url(photos/book.jpg);
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    background: white;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.pic2 {
+    background-image: url(photos/profile.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.pic3 {
+    background-image: url(photos/vs_logo.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.pic4 {
+    background-image: url(photos/studio.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.pic5 {
+    background-image: url(photos/wedding.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
 }
 
 @media only screen 
   and (min-width: 375px) 
-  and (max-width: 812px) { 
+  and (max-width: 812px) {
+}
 
+@media only screen 
+    and (min-width: 390px) 
+    and (max-width: 767px) {
 }
