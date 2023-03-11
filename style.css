@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: 20px;
-    padding: 0 50px 0 50px;
+    padding: 50px 100px 50px 100px;
 }
 
 ul {
@@ -23,7 +23,7 @@ h1 {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', cursive; 
 }
 
 p {
@@ -91,12 +91,26 @@ p {
     width: 300px;
 }
 
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) {
-}
+@media only screen and (max-width: 390px) {
 
-@media only screen 
-    and (min-width: 390px) 
-    and (max-width: 767px) {
-}
+     .pic1 {
+        height: 100px;
+        width: 100px;
+     }
+     .pic2 {
+        height: 100px;
+        width: 100px;
+     }
+     .pic3 {
+        height: 100px;
+        width: 100px;
+     }
+     .pic4 {
+        height: 100px;
+        width: 100px;
+     }
+     .pic5 {
+        height: 100px;
+        width: 100px;
+     }
+};
